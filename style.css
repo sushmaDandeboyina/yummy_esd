@@ -1,0 +1,55 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.bgrimg {
+    background-image: url('./images/bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    background-attachment: fixed;
+ }
+
+  .nav-link{
+    color:beige;
+  }
+
+
+.btnn {
+    padding: 15px 30px;  
+    font-size: 25px; 
+    background-color:#e6810e; 
+    color: white;
+    width:300px;
+    border: none;  
+    border-radius:12px;
+    position: relative;
+    left:350px;
+}
+
+
+#line{
+    font-size: 100px;
+    width: 50%; 
+}
+#tag{
+    font-size: 30px;
+    width: 50%; 
+}
+.bt{
+    background-color:#df7a06;
+    transition: 0.3s;
+}
+.bt:hover{
+    color: black !important;
+    background-color:#f5ac58;
+}
+
+
+.home-card{
+    transition: 0.3s;
+}
+
+.home-card:hover{
+    transform: scale(1.1);
+}
